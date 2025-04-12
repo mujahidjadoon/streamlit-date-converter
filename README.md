@@ -21,13 +21,6 @@ Install dateparser: pip install dateparser
 Create the Python File: Create a new Python file (e.g., app.py) and paste the code into it.
 Run the Application:
 In PyCharm, right-click in the editor and select "Run 'app'". This will start the Flask development server.
-You'll see output in the PyCharm console indicating that the server is running (e.g., Running on http://127.0.0.1:5000/).
+You'll see output in the PyCharm console indicating that the server is running 
 
 
-To use the API, send a POST request to http://127.0.0.1:5000/convert with a JSON payload like this:
-JSON
-
-{
-    "text": "next Tuesday at 3 PM"
-}
-You can use tools like curl, Postman, or a Python requests script to send the request.
